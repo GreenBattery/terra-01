@@ -9,11 +9,6 @@ variable "repository_description" {
   default     = "an example repo created with terraform"
 }
 
-variable "repository_private" {
-  description = "whether the repo should be private"
-  type        = bool
-  default     = false
-}
 
 variable "repository_visibility" {
   description = "visibility of the github repo: public, private, internal"
